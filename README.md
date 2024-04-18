@@ -10,15 +10,15 @@ $ tree .
 ├── Makefile
 ├── misc
 └── src
-    ├── __init__.py       # (1) this one inits the src as package
+    ├── __init__.py       # 🟢 (1) this one inits the src as package
     ├── submod_1
-    │   ├── __init__.py   # (1) this one inits the submod_1 as package
+    │   ├── __init__.py   # 🟢 (2) this one inits the submod_1 as package, needed for importing inits
     │   ├── mod_1_1
     │   │   └── bla.py
     │   └── mod_1_2
     │       └── bar.py
     └── submod_2
-        ├── __init__.py   # (3) this one inits the submod_2 as package
+        ├── __init__.py   # 🟢 (3) this one inits the submod_2 as package, entirely optional
         ├── mod_2_1
         │   └── multi.py
         └── mod_2_2
