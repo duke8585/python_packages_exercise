@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#fffcf6",
+        "activityBar.background": "#fffcf6",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#00bf80",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "titleBar.activeBackground": "#fdecc5",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#fdecc599",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#fdecc5",
+}
